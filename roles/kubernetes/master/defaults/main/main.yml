@@ -76,9 +76,9 @@ audit_webhook_mode: batch
 audit_webhook_batch_max_size: 100
 audit_webhook_batch_max_wait: 1s
 
-kube_controller_node_monitor_grace_period: 40s
-kube_controller_node_monitor_period: 5s
-kube_controller_pod_eviction_timeout: 5m0s
+kube_controller_node_monitor_grace_period: 10s
+kube_controller_node_monitor_period: 2s
+kube_controller_pod_eviction_timeout: 30s
 kube_controller_terminated_pod_gc_threshold: 12500
 kube_apiserver_request_timeout: "1m0s"
 
