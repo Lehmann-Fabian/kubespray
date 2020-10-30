@@ -29,7 +29,7 @@ kube_cpu_reserved: 100m
 kube_master_memory_reserved: 512M
 kube_master_cpu_reserved: 200m
 
-kubelet_status_update_frequency: 2s
+kubelet_status_update_frequency: 1500ms
 
 # Requests for load balancer app
 loadbalancer_apiserver_memory_requests: 32M
